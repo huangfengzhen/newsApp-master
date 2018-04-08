@@ -1,0 +1,18 @@
+@media screen and (max-width:1200px){
+  body{
+    padding:0 .15rem;
+  }
+}
+.MobileHead{
+  height: .6rem;
+}
+.MobileHead .logo img{
+  width: .6rem;
+}
+.MobileHead span{
+  font-size: .2rem;
+  position: relative;
+  top:.05rem;
+  left:10px;
+
+}

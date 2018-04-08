@@ -1,0 +1,49 @@
+html转换jsx
+
+	http://magic.reactjs.net/htmltojsx.htm
+
+登录接口
+
+	http://newsapi.gugujiankong.com/Handler.ashx?action=login&username=wuweijun&password=888888
+							   登录类型	    名字	      密码
+
+注册接口
+	
+	http://newsapi.gugujiankong.com/Handler.ashx?action=register&r_userName=789&r_password=123&r_confirmPassword=123
+							     注册类型		名字           密码 		    重复密码
+
+获取新闻接口
+
+	http://newsapi.gugujiankong.com/Handler.ashx?action=getnews&type=guonei&count=10
+							    获取新闻	 类型        数量
+	type类型有这几类  guonei/yule/keji/tiyu/shehui/junshi/caijing
+
+查看个人信息
+
+	http://newsapi.gugujiankong.com/Handler.ashx?action=getuc&userid=13855
+							  获取个人      个人id
+获取新闻
+
+	http://newsapi.gugujiankong.com/Handler.ashx?action=getnewsitem&uniquekey=161028201113900
+							      获取新闻		      新闻id	
+
+
+获取个人评论内容
+
+	http://newsapi.gugujiankong.com/Handler.ashx?action=getusercomments&userid=13855
+								获取评论           个人id
+提交个人评论内容
+
+	http://newsapi.gugujiankong.com/Handler.ashx?action=comment&userid=13855&uniquekey=161028201113900&commnet=我爱你
+									   个人id	        新闻id 		     内容
+
+全部评论内容
+
+	http://newsapi.gugujiankong.com/Handler.ashx?action=getcomments&uniquekey=161028202106247
+								获取评论             新闻id
+收藏接口
+	
+	http://newsapi.gugujiankong.com/Handler.ashx?action=uc&userid=13855&uniquekey=161028202106247
+							收藏动作      个人id		新闻id	
+
+	http://newsapi.gugujiankong.com/Handler.ashx?action=comment&userid=13855&uniquekey=161028202106247

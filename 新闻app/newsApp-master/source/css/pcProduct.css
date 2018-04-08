@@ -1,0 +1,201 @@
+.pop_all_product {
+    height: 370px;
+    font-size: 12px;
+    overflow: visible;
+}
+
+ .pop_all_product .first {
+    border-top: 0;
+    font-size: 14px;
+}
+ .pop_all_product ul {
+    padding: 0 12px;
+}
+ .pop_all_product .first a {
+    color: #404040;
+}
+ .pop_all_product a {
+    margin: 0 5px 0 0;
+    color: #888;
+    float: left;
+    display: inline;
+}
+ .pop_all_product li {
+    padding: 15px 0 9px 0;
+    border-top: 1px #eee solid;
+    line-height: 24px;
+    float: left;
+    display: inline;
+    width: 100%;
+}
+ .pop_all_product li h3 {
+    font-size: 14px;
+    border-left: 2px #f33 solid;
+    padding-left: 6px;
+    height: 14px;
+    line-height: 14px;
+    margin-bottom: 5px;
+}
+ .pop_all_product li h3 a {
+    color: #404040;
+}
+ a {
+    white-space: nowrap;
+}
+.product_foot {
+    position: absolute;
+    bottom: 10px;
+}
+ .product_foot span {
+    width: 28px;
+    height: 16px;
+    display: inline-block;
+    line-height: 1000px;
+    overflow: hidden;
+    margin: -15px 0 0 137px;
+    cursor: pointer;
+    float: left;
+    display: inline;
+    background: url(../image/sprite_img0607.png?0621) no-repeat -473px -416px;
+}
+.new_pics {
+  margin-top:-20px;
+}
+.new_pics .blk_nav_3 {
+    background: none;
+    padding-left: 0;
+    border-bottom-width: 2px;
+}
+.blk_nav_3 {
+    height: 28px;
+    border-bottom: 1px solid #dfdfdf;
+    line-height: 28px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","微软雅黑";
+    padding-left: 10px;
+    position: relative;
+    background-color: #f6f6f6;
+}
+.blk_nav_3 a.blk_nav_tit:hover, .blk_nav_3 a.blk_nav_tit:focus, .blk_nav_3 a.blk_nav_tit:active {
+    color: #8D0000;
+}
+.new_pics .blk_nav_3 {
+    background: none;
+    padding-left: 0;
+    border-bottom-width: 2px;
+}
+.blk_nav_3 a.blk_nav_tit:link, .blk_nav_3 a.blk_nav_tit:visited {
+    color: #32220c;
+}
+.blk_nav_3 .tit_more {
+    top: 0;
+    font-size: 12px;
+}
+.tit_more {
+    width: 42px;
+    display: block;
+    background: url(http://i1.sinaimg.cn/dy/main/index13/01/ico_app_04.png) no-repeat right -217px;
+    position: absolute;
+    right: 0;
+}
+
+.new_pics .new_pic_tit {
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+.new_pics .new_pic_tit a {
+    color: #a21607;
+}
+
+a.zt_pic_w:link, a.zt_pic_w:visited {
+    color: #d1d0d0;
+    text-decoration: none;
+}
+a.zt_pic_w {
+    display: block;
+    position: relative;
+}
+.new_pics .new_pic_box  img{
+  width: 100%;
+}
+.new_pics .new_pic_box .ct_txt {
+    display: block;
+    font: 14px/30px "Microsoft YaHei","微软雅黑";
+    overflow: hidden;
+    text-align: center;
+    margin-top: -30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0,startColorstr = '#80000000', endColorstr = '#80000000' )\9;
+    bbackground: #000;
+    background: rgba( 0, 0, 0, .7 );
+}
+.ct_txt {
+    word-break: break-all;
+}
+.ct_p_01 {
+
+    padding-top: 10px;
+    margin-right: -10px;
+    position: relative;
+}
+.ct_p_01 .ct_box {
+    width: 140px;
+    float: left;
+    margin-right: 8px;
+    padding-bottom: 10px;
+    display: inline;
+    position: relative;
+}
+.ct_p_01 .ct_box a {
+    display: block;
+    width: 140px;
+    height: 112px;
+    background-color: #000;
+    overflow: hidden;
+}
+.ct_p_01 .ct_box a img{
+  width: 100%;
+}
+ .play_icon {
+    top: 52px;
+}
+a:hover .play_icon {
+    background: url(http://i3.sinaimg.cn/ent/deco/2012/0517/ent_zxh_0420_video_play_icon_h.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='http://i3.sinaimg.cn/ent/deco/2012/0517/ent_zxh_0420_video_play_icon_h.png');
+    _background: none;
+}
+.play_icon {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 42px;
+    left: 5px;
+    cursor: pointer;
+    background: url(http://i0.sinaimg.cn/ent/deco/2012/0517/ent_zxh_0420_video_play_icon.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='http://i0.sinaimg.cn/ent/deco/2012/0517/ent_zxh_0420_video_play_icon.png');
+    _background: none;
+}
+ .ct_p_01 .ct_txt {
+    text-align: center;
+    overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.ct_p_01 a:hover .ct_txt {
+    color: #fff;
+}
+.ct_p_01 .ct_txt {
+    display: block;
+    line-height: 22px;
+    line-height: 24px\9;
+    overflow: hidden;
+    background: #000;
+    color: #e4e4e4;
+    padding-left: 5px;
+    height: 22px;
+    cursor: pointer;
+}
